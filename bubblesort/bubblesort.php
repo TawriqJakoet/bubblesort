@@ -17,7 +17,7 @@ for ($search_times=0; $search_times < $bubbles_count; $search_times++) {
 			$done_searching = false;
 		}
 
-	// Stop searching when the bubbles have been ordered
+	// Stop searching if the bubbles have been ordered
 	if ($done_searching) break;
 }
 
